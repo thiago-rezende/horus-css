@@ -14,11 +14,23 @@ module.exports = function (grunt) {
           'src/horus.css': 'src/horus.scss'
         }
       }
+    },
+    uglify: {
+      options: {
+        banner: '/*! <%= pkg.name %> v<%= pkg.version %> */\n'
+      },
+      dist: {
+        files: {
+          'dist/horus.min.css': 'src/horus.css'
+        }
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.registerTask('default', [
-    'sass'
+    'sass',
+    'uglify'
   ]);
 };
