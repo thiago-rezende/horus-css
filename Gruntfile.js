@@ -11,17 +11,7 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          'src/horus.css': 'src/horus.scss'
-        }
-      }
-    },
-    uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> v<%= pkg.version %> */\n'
-      },
-      dist: {
-        files: {
-          'dist/horus.min.css': 'src/horus.css'
+          'dist/horus.css': 'src/horus.scss'
         }
       }
     },
@@ -37,10 +27,8 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-sass');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', [
-    'sass',
-    'uglify'
+    'sass'
   ]);
 };
