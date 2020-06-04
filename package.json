@@ -25,5 +25,8 @@
   "bugs": {
     "web": "https://github.com/thiago-rezende/horus-css/issues"
   },
-  "homepage": "https://github.com/thiago-rezende/horus-css"
+  "homepage": "https://github.com/thiago-rezende/horus-css",
+  "dependencies": {
+    "grunt": "^1.1.0"
+  }
 }
