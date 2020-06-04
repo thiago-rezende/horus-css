@@ -5,6 +5,14 @@
 ## [Unreleased]
 
 
+## [v0.2.0]
+ - [49f7afe] docs(version): changed package verison to 0.2.0 (Thiago Rezende)
+ - [fefdbb5] refactor(docs): added deployment link to nav brand (Thiago Rezende)
+ - [c327e59] build: changed template engine from jade to pug (Thiago Rezende)
+ - [8a7a32f] fix(audit): fixed vulnerabilities (Thiago Rezende)
+ - [3ac8c4e] docs: removed css classes from usage section in readme (Thiago Rezende)
+ - [9a18cdb] docs(changelog): generated new changelog (Thiago Rezende)
+
 ## [v0.1.0]
  - [27e107e] docs(version): changed package version to 0.1.0 (Thiago Rezende)
  - [bcc383b] docs(changelog): generated new changelog (Thiago Rezende)
