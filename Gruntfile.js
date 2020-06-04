@@ -26,6 +26,19 @@ module.exports = function (grunt) {
         }
       }
     },
+    usebanner: {
+      banner: {
+        options: {
+          position: "top",
+          banner:
+            "/* Horus CSS v<%= pkg.version %> <%= pkg.repository %> */",
+          linebreak: true
+        },
+        files: {
+          src: "dist/horus.min.css"
+        }
+      }
+    },
     watch: {
       scripts: {
         files: ["Gruntfile.js", "src/**/*.*"],
@@ -39,9 +52,11 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks("grunt-banner");
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', [
     'sass',
-    'cssmin'
+    'cssmin',
+    'usebanner'
   ]);
 };
