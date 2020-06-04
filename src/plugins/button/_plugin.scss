@@ -1,0 +1,9 @@
+// Inherit from the class
+@import "class";
+
+// Implement the abstract class for real elements
+button,
+.button,
+[type="submit"] {
+  @extend %button;
+}

@@ -1,8 +1,3 @@
-# Horus CSS
-
-Just another CSS framework.
-
-
 ## Buttons
 
 They can be of different colors and types:

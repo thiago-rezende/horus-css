@@ -1,4 +1,7 @@
 //! Horus CSS https://github.com/thiago-rezende/horus-css
 
 // Imports the default theme
-@import './themes/default/theme';
+@import "./themes/default/theme";
+
+// Simple elements
+@import "./plugins/button/plugin";

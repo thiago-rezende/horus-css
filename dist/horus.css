@@ -1,2 +1,7 @@
+button,
+.button,
+[type="submit"] {
+  color: #111;
+}
 
 /*# sourceMappingURL=horus.css.map */
