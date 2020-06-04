@@ -207,6 +207,13 @@ braces@^2.3.1:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
+bytesize@~0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/bytesize/-/bytesize-0.2.0.tgz#6e5497626191f2fbe9764592d24e93a72cf994c5"
+  integrity sha1-blSXYmGR8vvpdkWS0k6Tpyz5lMU=
+  dependencies:
+    humanize "0.0.7"
+
 cache-base@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cache-base/-/cache-base-1.0.1.tgz#0a7f46416831c8b662ee36fe4e7c59d76f666ab2"
@@ -772,6 +779,13 @@ graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
+grunt-bytesize@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/grunt-bytesize/-/grunt-bytesize-0.2.0.tgz#26f5de95d521c54e7790aa6a0251049baad67471"
+  integrity sha1-JvXeldUhxU53kKpqAlEEm6rWdHE=
+  dependencies:
+    bytesize "~0.2.0"
+
 grunt-cli@^1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/grunt-cli/-/grunt-cli-1.3.2.tgz#60f12d12c1b5aae94ae3469c6b5fe24e960014e8"
@@ -943,6 +957,11 @@ http-signature@~1.2.0:
     assert-plus "^1.0.0"
     jsprim "^1.2.2"
     sshpk "^1.7.0"
+
+humanize@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/humanize/-/humanize-0.0.7.tgz#371fc54e1a8d361ea8bb40e4707e5a0ab47413b3"
+  integrity sha1-Nx/FThqNNh6ou0DkcH5aCrR0E7M=
 
 iconv-lite@~0.4.13:
   version "0.4.24"

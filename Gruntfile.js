@@ -6,7 +6,8 @@ module.exports = function (grunt) {
     sass: {
       options: {
         implementation: sass,
-        sourceMap: true
+        sourceMap: true,
+        outputStyle: 'expanded'
       },
       dist: {
         files: {
