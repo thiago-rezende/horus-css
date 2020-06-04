@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+ - [15495c5] build: added package.json (Thiago Rezende)
+ - [d61ce4e] chore(docs): added changelog generator (Thiago Rezende)
  - [6ae22aa] style: added .editorconfig (Thiago Rezende)
  - [c863adc] chore(git): added .gitattributes (Thiago Rezende)
  - [5057eca] chore(git): added .gitignore (Thiago Rezende)
