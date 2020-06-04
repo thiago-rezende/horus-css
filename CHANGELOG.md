@@ -4,6 +4,18 @@
 
 ## [Unreleased]
 
+ - [cd8c02c] feat: added button plugin (Thiago Rezende)
+ - [678f3b3] chore: added button plugin folder (Thiago Rezende)
+ - [d9abf02] feat: added the default theme (Thiago Rezende)
+ - [a3e1593] chore: added default theme folder (Thiago Rezende)
+ - [51352a2] build: added concat task and tests bundle to gruntfile (Thiago Rezende)
+ - [086430e] chore: added tests jade template (Thiago Rezende)
+ - [3c8b4a4] build: added jade templates and default layout (Thiago Rezende)
+ - [21ec49c] chore: added main tests folder and templates folder (Thiago Rezende)
+ - [d5f0b54] build: added copy task to gruntfile (Thiago Rezende)
+ - [ec9cec9] chore: added docs folder structure (Thiago Rezende)
+ - [b61b115] chore: added docs folder (Thiago Rezende)
+ - [59cf623] docs(changelog): generated new changelog (Thiago Rezende)
  - [b50726c] build: added usebanner task to gruntfile (Thiago Rezende)
  - [7197251] build: added cssmin task to grunt (Thiago Rezende)
  - [787d101] build: removed uglify (Thiago Rezende)
