@@ -3,5 +3,8 @@
 // Imports the default theme
 @import "./themes/default/theme";
 
+// Imports the normalize css
+@import "./vendor/normalize/normalize";
+
 // Simple elements
 @import "./plugins/button/plugin";

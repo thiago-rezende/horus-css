@@ -1,6 +1,6 @@
 {
   "name": "horus-css",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Just another CSS library",
   "main": "index.js",
   "repository": "https://github.com/thiago-rezende/horus-css.git",

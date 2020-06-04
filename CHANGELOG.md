@@ -5,6 +5,13 @@
 ## [Unreleased]
 
 
+## [v0.3.0]
+ - [cc2c978] build: added v0.3.0 dist files (Thiago Rezende)
+ - [d4b64f4] docs(version): changed package version to 0.3.0 (Thiago Rezende)
+ - [641e3bf] feat: added normalize css (Thiago Rezende)
+ - [71399d1] build: added v0.2.1 dist files (Thiago Rezende)
+ - [66d9200] docs(changelog): generated new changelog (Thiago Rezende)
+
 ## [v0.2.1]
  - [d650a42] docs(version): changed package version to 0.2.1 (Thiago Rezende)
  - [b0b2583] ci: removed package publishing to github registry (Thiago Rezende)
