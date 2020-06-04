@@ -24,11 +24,21 @@ module.exports = function (grunt) {
           'dist/horus.min.css': 'src/horus.css'
         }
       }
-    }
+    },
+    watch: {
+      scripts: {
+        files: ["Gruntfile.js", "src/**/*.*"],
+        tasks: ["default"],
+        options: {
+          spawn: false
+        }
+      }
+    },
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', [
     'sass',
     'uglify'
