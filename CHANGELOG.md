@@ -4,6 +4,11 @@
 
 ## [Unreleased]
 
+ - [14f9c7c] ci: added continuous delivery workflow (Thiago Rezende)
+ - [fdec668] ci: added build step (Thiago Rezende)
+ - [9503e0a] feat: switched from yarn to npm (Thiago Rezende)
+ - [b747d23] refactor: changed the project description from framework to library (Thiago Rezende)
+ - [c5235f2] docs(changelog): generated new changelog (Thiago Rezende)
  - [cd8c02c] feat: added button plugin (Thiago Rezende)
  - [678f3b3] chore: added button plugin folder (Thiago Rezende)
  - [d9abf02] feat: added the default theme (Thiago Rezende)
