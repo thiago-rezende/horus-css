@@ -5,6 +5,19 @@
 ## [Unreleased]
 
 
+## [v0.2.1]
+ - [d650a42] docs(version): changed package version to 0.2.1 (Thiago Rezende)
+ - [b0b2583] ci: removed package publishing to github registry (Thiago Rezende)
+ - [dedce32] ci: added version checking before publishing packages (Thiago Rezende)
+ - [d266340] revert: removed scope from package publishing tasks (Thiago Rezende)
+ - [bd93a54] ci: added scope to package publishing tasks (Thiago Rezende)
+ - [c3dc7c0] ci: added gpr auth token (Thiago Rezende)
+ - [046da6c] ci: added activation restriction to cd workflow (Thiago Rezende)
+ - [017d2d9] ci: changed cd activation restrictions (Thiago Rezende)
+ - [9d96e39] ci: added cd activation restrictions (Thiago Rezende)
+ - [5a341e5] build: added v0.2.0 dist files (Thiago Rezende)
+ - [ea76b10] docs(changelog): generated new changelog (Thiago Rezende)
+
 ## [v0.2.0]
  - [49f7afe] docs(version): changed package verison to 0.2.0 (Thiago Rezende)
  - [fefdbb5] refactor(docs): added deployment link to nav brand (Thiago Rezende)
