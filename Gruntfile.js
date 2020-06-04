@@ -15,6 +15,17 @@ module.exports = function (grunt) {
         }
       }
     },
+    cssmin: {
+      options: {
+        mergeIntoShorthands: false,
+        roundingPrecision: -1
+      },
+      target: {
+        files: {
+          'dist/horus.min.css': 'dist/horus.css'
+        }
+      }
+    },
     watch: {
       scripts: {
         files: ["Gruntfile.js", "src/**/*.*"],
@@ -27,8 +38,10 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', [
-    'sass'
+    'sass',
+    'cssmin'
   ]);
 };
