@@ -49,6 +49,22 @@ module.exports = function (grunt) {
         ]
       }
     },
+    jade: {
+      compile: {
+        options: {
+          pretty: true
+        },
+        files: [
+          {
+            cwd: "templates",
+            src: "**/*.html.jade",
+            dest: "docs/",
+            expand: true,
+            ext: ".html"
+          }
+        ]
+      }
+    },
     watch: {
       scripts: {
         files: ["Gruntfile.js", "src/**/*.*"],
@@ -64,11 +80,13 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks("grunt-banner");
   grunt.loadNpmTasks("grunt-contrib-copy");
+  grunt.loadNpmTasks("grunt-contrib-jade");
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', [
     'sass',
     'cssmin',
     'usebanner',
-    'copy'
+    'copy',
+    'jade'
   ]);
 };
