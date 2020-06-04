@@ -11,7 +11,7 @@ npm -i horus-css --save
 ## Usage
 
 ```html
-<button class="btn success">Submit</button>
+<button>Button</button>
 ```
 
 ## Contributing
