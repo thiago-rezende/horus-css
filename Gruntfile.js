@@ -39,6 +39,16 @@ module.exports = function (grunt) {
         }
       }
     },
+    copy: {
+      toDocs: {
+        files: [
+          {
+            src: "dist/horus.min.css",
+            dest: "docs/css/horus.min.css"
+          }
+        ]
+      }
+    },
     watch: {
       scripts: {
         files: ["Gruntfile.js", "src/**/*.*"],
@@ -53,10 +63,12 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks("grunt-banner");
+  grunt.loadNpmTasks("grunt-contrib-copy");
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', [
     'sass',
     'cssmin',
-    'usebanner'
+    'usebanner',
+    'copy'
   ]);
 };
