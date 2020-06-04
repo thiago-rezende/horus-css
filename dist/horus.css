@@ -1,7 +1,7 @@
 button,
 .button,
 [type="submit"] {
-  color: #111;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=horus.css.map */

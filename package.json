@@ -1,7 +1,7 @@
 {
   "name": "horus-css",
   "version": "0.0.0",
-  "description": "Just another CSS framework",
+  "description": "Just another CSS library",
   "main": "index.js",
   "repository": "https://github.com/thiago-rezende/horus-css.git",
   "author": "Thiago Rezende <bitrateti@gmail.com>",
@@ -13,7 +13,7 @@
   },
   "keywords": [
     "css",
-    "framework",
+    "library",
     "style",
     "web",
     "sass",

@@ -1,3 +1,3 @@
 # Horus CSS
 
-Just another CSS framework.
+Just another CSS library.
