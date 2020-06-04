@@ -26,13 +26,12 @@
     "web": "https://github.com/thiago-rezende/horus-css/issues"
   },
   "homepage": "https://github.com/thiago-rezende/horus-css",
-  "dependencies": {
-    "grunt-bytesize": "^0.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "^1.1.0",
     "grunt-cli": "^1.3.2",
     "grunt-sass": "^3.1.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "grunt-bytesize": "^0.2.0"
   }
 }
