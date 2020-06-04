@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+ - [b50726c] build: added usebanner task to gruntfile (Thiago Rezende)
+ - [7197251] build: added cssmin task to grunt (Thiago Rezende)
+ - [787d101] build: removed uglify (Thiago Rezende)
+ - [731272d] docs(changelog): generated new changelog (Thiago Rezende)
  - [70cb372] docs(changelog): generated new changelog (Thiago Rezende)
  - [749f1f4] build: added watch task to gruntfile (Thiago Rezende)
  - [832c7cb] refactor(git): removed dist folder from gitignore (Thiago Rezende)
