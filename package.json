@@ -1,0 +1,29 @@
+{
+  "name": "horus-css",
+  "version": "0.0.0",
+  "description": "Just another CSS framework",
+  "main": "index.js",
+  "repository": "https://github.com/thiago-rezende/horus-css.git",
+  "author": "Thiago Rezende <bitrateti@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "css",
+    "framework",
+    "style",
+    "web",
+    "sass",
+    "scss"
+  ],
+  "maintainers": [
+    {
+      "name": "Thiago Rezende",
+      "email": "bitrateti@gmail.com",
+      "web": "https://thiago-rezende.github.io/"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/thiago-rezende/horus-css/issues"
+  },
+  "homepage": "https://github.com/thiago-rezende/horus-css"
+}
