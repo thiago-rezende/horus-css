@@ -49,6 +49,15 @@ module.exports = function (grunt) {
         ]
       }
     },
+    concat: {
+      options: { separator: "\n\n" },
+      basic_and_extras: {
+        files: {
+          "tests/tests.html": ["src/test.html", "src/plugins/**/test.html"],
+          "docs/README.md": ["src/README.md", "src/plugins/**/README.md"]
+        }
+      }
+    },
     jade: {
       compile: {
         options: {
@@ -80,6 +89,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks("grunt-banner");
   grunt.loadNpmTasks("grunt-contrib-copy");
+  grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks("grunt-contrib-jade");
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', [
@@ -87,6 +97,7 @@ module.exports = function (grunt) {
     'cssmin',
     'usebanner',
     'copy',
+    'concat',
     'jade'
   ]);
 };
