@@ -58,7 +58,7 @@ module.exports = function (grunt) {
         }
       }
     },
-    jade: {
+    pug: {
       compile: {
         options: {
           pretty: true
@@ -66,7 +66,7 @@ module.exports = function (grunt) {
         files: [
           {
             cwd: "templates",
-            src: "**/*.html.jade",
+            src: "**/*.html.pug",
             dest: "docs/",
             expand: true,
             ext: ".html"
@@ -90,7 +90,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks("grunt-banner");
   grunt.loadNpmTasks("grunt-contrib-copy");
   grunt.loadNpmTasks("grunt-contrib-concat");
-  grunt.loadNpmTasks("grunt-contrib-jade");
+  grunt.loadNpmTasks("grunt-contrib-pug");
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', [
     'sass',
@@ -98,6 +98,6 @@ module.exports = function (grunt) {
     'usebanner',
     'copy',
     'concat',
-    'jade'
+    'pug'
   ]);
 };
