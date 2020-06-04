@@ -4,6 +4,7 @@
 
 ## [Unreleased]
 
+ - [70cb372] docs(changelog): generated new changelog (Thiago Rezende)
  - [749f1f4] build: added watch task to gruntfile (Thiago Rezende)
  - [832c7cb] refactor(git): removed dist folder from gitignore (Thiago Rezende)
  - [ef7d4c5] feat: added uglify task to gruntfile (Thiago Rezende)
