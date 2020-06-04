@@ -6,7 +6,7 @@
   "repository": "https://github.com/thiago-rezende/horus-css.git",
   "author": "Thiago Rezende <bitrateti@gmail.com>",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "grunt watch",
     "build": "grunt"
