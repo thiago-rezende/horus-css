@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+
+## [v0.1.0]
+ - [27e107e] docs(version): changed package version to 0.1.0 (Thiago Rezende)
+ - [bcc383b] docs(changelog): generated new changelog (Thiago Rezende)
  - [14f9c7c] ci: added continuous delivery workflow (Thiago Rezende)
  - [fdec668] ci: added build step (Thiago Rezende)
  - [9503e0a] feat: switched from yarn to npm (Thiago Rezende)
@@ -46,3 +50,4 @@
  - [5057eca] chore(git): added .gitignore (Thiago Rezende)
  - [d423a66] chore(docs): added license.md (Thiago Rezende)
  - [58a9864] chore(docs): added readme.md (Thiago Rezende)
+
